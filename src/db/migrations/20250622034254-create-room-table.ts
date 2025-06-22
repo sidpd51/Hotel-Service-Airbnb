@@ -22,7 +22,7 @@ module.exports = {
 
   async down(queryInterface: QueryInterface) {
     await queryInterface.sequelize.query(`
-      DROP TABLE IF EXISTS hotels
+      DROP TABLE IF EXISTS rooms
     `);
   }
 };
